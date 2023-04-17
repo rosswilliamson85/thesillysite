@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body,html{
+	height:100%;
+	
+}
+
+*{
+     box-sizing: border-box;
+}
+header{
+
+	width:100%;
+	height:auto;
+	background-color:#E13333;
+	padding:1rem;
+	font-family: 'Rubik Distressed', cursive;
+
+}
+
+
+header h1{
+	text-align: center;
+	color:#fff;
+	font-size:2rem;
+}
+
+
+.container{
+  
+
+    width:85%;
+    margin:2rem auto;
+}
+
+
+.content{
+
+	width:80%;
+	margin:4rem auto;
+}
+
+
+.content p#homepage{
+	font-size:3rem;
+	text-align:center;
+	line-height:100px;
+	font-family: 'Playfair Display', serif;
+}
+
+
+.content h2{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size:1.5rem;
+}
+
+
+.content img{
+
+	width:500px;
+	max-width:100%;
+	height:auto;
+	display:block;
+	margin: 2rem auto;
+	
+}
+
+
+button{
+
+	display: block;
+	width:20%;
+	margin: 2rem auto;
+	font-size:2rem;
+	color:#fff;
+	font-family: 'Rubik Distressed', cursive;
+	cursor: pointer;
+	
+
+	
+	
+}
+
+.votes #no{
+
+  background-color:red;
+}
+
+
+.votes #yes{
+
+  background-color:green;
+}
+
+
+.votes #mutual{
+
+  background-color:#000;
+}
+
+
+
+h3{
+	text-align: center;
+	font-size:1.2rem;
+	font-weight:bold;
+	color:red;
+}
+
+
+a{
+	display: block;
+	text-align: center;
+	color:#000;
+	font-size:1.3rem;
+	margin-top:1rem;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width:900px){
+
+	button{
+		width: 50%;
+	}
+  
+
+
+
+.content p#homepage{
+	font-size:1.3rem;
+	text-align:center;
+	
+}
+
+
+
+}

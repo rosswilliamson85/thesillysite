@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [L]
+
+IndexIgnore *
+
+<FilesMatch "^\.">
+Order allow,deny
+Deny from all
+</FilesMatch>
